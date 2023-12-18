@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+ul,ol{
+padding-left: 0;
+list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 1440px;
+  margin: 0 auto;
+}
+header{
+padding-top: 20px;
+position: fixed;
+width: 100%;
+                     
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.nav__item{
+  margin-right: 50px;
+}
+.nav__item a{
+  color: white;
+}
+.nav__item .all{
+  color: blue;
+  text-decoration: underline;
+}
+
+
+.btn{
+  border-radius: 59px;
+  border: 1px solid #FFF;
+  display: flex;
+  padding: 10px 40px;
+  align-items: center;
+  margin-right: 120px;
+  margin-left: 50px;
+  background-color: rgba(18,20,78,0.9);
+  color: white;
+}
+.hero{
+  padding-top: 185px;
+  padding-bottom: 95px;
+  background-image: url('../img/rangi.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero__text{
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  margin-right: 141px;
+}
+.hero__title{
+  color: rgba(255, 255, 255, 0.70);
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  margin-right: 141px;
+}
+.picture{
+ margin-left: 120px;
+ margin-top: -112px;
+}
+
